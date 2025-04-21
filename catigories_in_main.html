@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لوحة التحكم - الخليج ستور </title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Work+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+    
+    <!-- <div class="content w-full"> -->
+        <!-- Start Head -->
+        <div class="head bg-white p-15 between-flex">
+        <div class="icons d-flex align-center">
+            <div class="toggle-btn2" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars fa-lg"></i>
+            </div>
+            <div class="image" onclick="logoutc()">
+                <p>Mohamed</p>
+              <img src="imgs/avatar3_small.jpg" alt="" />
+              </div>
+              <span class="notification p-relative">
+                <i class="fa-regular fa-bell fa-lg"></i>
+              </span>
+            </div>
+            <div class="imag"><img src="imgs/logo.png" alt=""></div>
+          </div>
+          <div class="logout">
+            <ul><li>
+              <a href="">Log Out</a>
+              <img src="imgs/key.jpg" alt="">
+            </li></ul>
+            </div>
+        <!-- End Head -->
+    <!-- </div>   -->
+        <div class="two">
+            <div class="sidebar bg-white p-5 p-relative">
+                <div class="header">
+                <img src="imgs/logo.png" class="disp" alt="">
+                <div class="toggle-btn" onclick="toggleSidebar()">
+                <i class="fa-solid fa-bars fa-lg"></i>
+                </div>
+            </div>
+            <ul><li>
+                <div class="search p-relative">
+                <input class="p-10" type="search" placeholder="...ابحث" />
+                </div>
+            </li></ul>
+                <ul>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10 " href="index.html">
+                    <i class="fa-solid fa-house fa-fw"></i>
+                    <span class="disp">الرئيسية</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="users.html">
+                    <i class="fa-solid fa-gear fa-fw"></i>
+                    <span class="disp">إدارة المستخدمين</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="comp_data.html">
+                    <i class="fa-regular fa-user fa-fw"></i>
+                    <span class="disp">بينات الشركة</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="panars.html">
+                    <i class="fa-solid fa-diagram-project fa-fw"></i>
+                    <span class="disp">البانرات</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="main_catigories.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw p-4"></i>
+                    <span class="disp">التصنيفات الرئيسية</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="sub_catigories.html">
+                    <i class="fa-regular fa-circle-user fa-fw"></i>
+                    <span class="disp">التصنيفات الفرعيه</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="catigories_in_main.html">
+                    <i class="fa-regular fa-file fa-fw"></i>
+                    <span class="disp">التصنيفات في الرئيسيه</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="types.html">
+                    <i class="fa-regular fa-credit-card fa-fw"></i>
+                    <span class="disp">الاصناف</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="orders.html">
+                    <i class="fa-regular fa-credit-card fa-fw"></i>
+                    <span class="disp">الطلبات</span>
+                    </a>
+                </li>
+                </ul>
+            
+            
+            </div>
+            <div class="users">
+                <div class="gg" style="justify-content: end;">
+                    <h3>ترتيب التصنيفات في الرئيسية</h3>
+                </div>
+                
+                <form action="" style="flex-direction: column; ">
+                    
+                  <div class="container2">
+                    <div class="cont" style="justify-content: end; margin-right: 40px;">
+                      
+                      <select id="selectOptions" size="4" style="width: 45%; height: 250px; margin-right: 100px;">
+                          <option value="">phones</option>
+                          <option value="">smart watch</option>
+                          <option value="">Elctronics</option>
+                      </select>
+                      
+                    </div>
+                  </div>
+                  <div class="gg1" style="width: 100%;text-align: end; margin: 0px 0px 0px -400px; border: none;">
+                    <input type="button" value="حفظ +" style="width: 70px;" >
+                </div>
+                </form>
+                <div>
+                
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function openPage() {
+      window.location.href = "Add_order.html";
+    }
+    function toggleSidebar() {
+      var sidebar = document.querySelector('.sidebar');
+      var users = document.querySelector('.users');
+      var spa = document.getElementsByClassName('disp');
+      sidebar.classList.toggle('sidebar-closed');
+      users.classList.toggle('users-closed');
+      for (var i = 0; i < spa.length; i++) {
+          spa[i].classList.toggle('span-none');
+        }
+    }
+    function logoutc() {
+      var logout = document.querySelector('.logout');
+      logout.classList.toggle('logout-closed');
+    }
+    // Get the table and select element
+    const table = document.getElementById('myTable');
+    const select = document.getElementById('rowCountSelect');
+
+    // Hide all rows except the first one (header row)
+    for (let i = 11; i < table.rows.length; i++) {
+      table.rows[i].classList.add('hidden');
+    }
+
+    // Display the selected number of rows
+    select.addEventListener('change', function() {
+      const rowCount = parseInt(this.value);
+      for (let i = 1; i < table.rows.length; i++) {
+        if (i <= rowCount) {
+          table.rows[i].classList.remove('hidden');
+        } else {
+          table.rows[i].classList.add('hidden');
+        }
+      }
+    });
+    
+  </script>
+  <script>
+    function moveOptionUp() {
+      var selectElement = document.getElementById('selectOptions');
+      var selectedIndex = selectElement.selectedIndex;
+      if (selectedIndex > 0) {
+        var optionToMove = selectElement.options[selectedIndex];
+        selectElement.remove(selectedIndex);
+        selectElement.insertBefore(optionToMove, selectElement.options[selectedIndex - 1]);
+        optionToMove.selected = true;
+      }
+    }
+  
+    function moveOptionDown() {
+      var selectElement = document.getElementById('selectOptions');
+      var selectedIndex = selectElement.selectedIndex;
+      if (selectedIndex < selectElement.options.length - 1) {
+        var optionToMove = selectElement.options[selectedIndex];
+        selectElement.remove(selectedIndex);
+        selectElement.insertBefore(optionToMove, selectElement.options[selectedIndex + 1]);
+        optionToMove.selected = true;
+      }
+    }
+  </script>
+</html>
